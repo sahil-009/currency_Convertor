@@ -11,14 +11,26 @@
 <body>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>About us</li>
-            <li>Contact us</li>
+            <a href="index.html"><li>Home</li></a>
+            <a href="index.html"><li>About</li></a>
+            <a href="index.html"><li>Contact</li></a>
+            <a href="index.html"><li>Currency</li></a>
         </ul>
 
     </nav>
-    <div class="container"></div>
+    <div class="container">
+        <h2>choose a Currency !</h2>
+        <form action="" method="get">
+        <select name ="currency">
+            <option value="IND">Indian Rupee</option>
+            <option value="USA">Us Dollar</option>
+            <option value="EUR">Euro</option>
+        </select>
+        <input type="number" name="quantity" min="1" max="10">
+        <input type="submit" value="submit">
+        </div>
+        </form>
+    </div>
 
     <footer>
         <p>&copy; 2024 Currency Convertor</p>

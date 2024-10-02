@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+
 body{
-    background-color:antiquewhite;
-    conatiner: 100vh;
+    background-color: rgb(141, 232, 223);
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight:400
+    
 }
 footer{
     background-color: black;
-    color: white;
+    color: rgb(59, 147, 213);;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -14,6 +20,31 @@ footer{
 nav ul li{
     display: inline;
     padding: 10px;
-    text-shadow: 0cap 0cap 10px black;
-    margin-inline: ;
+    text-shadow: 0cap 0cap 10px rgb(125, 200, 79);
+    margin-inline:initial;
+}
+nav ul{
+    text-align: center;
+    background-color:burlywood
+    /* padding:; */
+    /* margin: 0; */
+     
+}
+nav ul a{
+    text-decoration-color: none;
+    color: rgb(59, 147, 213);
+    font-size: 25px;
+    font-weight: bold;
+
+    transition:0.5s;
+    transition-duration: 500ms;
+}
+nav ul a:hover{
+    text-decoration:solid ;
+    color: rgb(194, 32, 32);
+    font-size: 20px;
+    font-weight: bold;
+}
+.container h2 {
+    text-align: center;
 }
