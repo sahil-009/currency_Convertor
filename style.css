@@ -1,0 +1,19 @@
+body{
+    background-color:antiquewhite;
+    conatiner: 100vh;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+    text-shadow: 0cap 0cap 10px black;
+    margin-inline: ;
+}
